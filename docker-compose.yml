@@ -46,5 +46,5 @@ services:
     ports:
       - "8887:8888"
     volumes:
-      - ./jupyter/notebooks:/home/jovyan/work
+      - ./jupyter/notebooks:/home/work
 
