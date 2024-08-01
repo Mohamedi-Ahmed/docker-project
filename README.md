@@ -53,4 +53,4 @@ docker-project/
     dans le navigateur : http://localhost:8501
 
 7. **Arrêt des services :**
-    dans le terminal : docker-compose down
+    dans le terminal : docker-compose -p docker-project down -v
