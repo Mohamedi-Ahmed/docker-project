@@ -42,11 +42,12 @@ docker-project/
    dans le terminal : docker-compose -p docker-project down -v
 
 4. **Démarrer les services**
-   dans le terminal : docker-compose -p docker-project up -d
+   dans le terminal : docker-compose -p docker-project up --build -d
 
 5. **Si premier lancement : Insérer des données dans MongoDB**
-    - Ouvrez le notebook insert_data.ipynb dans Jupyter (http://localhost:8887)
+    - Ouvrez le notebook insert_data.ipynb dans Jupyter : http://localhost:8887 (token demandé)
     - Utilisez ce notebook pour exécuter le script insert_data.py, qui se trouve dans le même répertoire : lancer la cellule avec %run insert_data.py
+    - Vous pouvez vérifier l'insertion des données ici http://localhost:8081/ (username et mdp par défaut : admin)
 
 6. **Accéder à Streamlit**
     dans le navigateur : http://localhost:8501
