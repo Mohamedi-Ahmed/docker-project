@@ -1,9 +1,9 @@
-# Docker Project: Data Management and Analysis Platform
+# Projet Docker : Plateforme de Gestion et d'Analyse de Données
 
-## Objective
-This project provides a containerized infrastructure for data management and analysis using MongoDB, Flask, Streamlit, and Jupyter.
+## Objectif
+Ce projet fournit une infrastructure conteneurisée pour la gestion et l'analyse de données en utilisant MongoDB, Flask, Streamlit et Jupyter.
 
-## Project Structure
+## Structure du Projet
 ```plaintext
 docker-project/
 │
@@ -29,3 +29,27 @@ docker-project/
 │
 ├── docker-compose.yml
 └── README.md
+```
+
+## Étapes pour lancer le programme
+
+1. **Récupérer le dossier et l'ouvrir dans VSCode par exemple**
+    https://github.com/Mohamedi-Ahmed/docker-project
+
+2. **Ouvrir Docker Desktop**
+
+3. **Arrêter et supprimer les conteneurs existants**
+   dans le terminal : docker-compose -p docker-project down -v
+
+4. **Démarrer les services**
+   dans le terminal : docker-compose -p docker-project up -d
+
+5. **Si premier lancement : Insérer des données dans MongoDB**
+    - Ouvrez le notebook insert_data.ipynb dans Jupyter (http://localhost:8887)
+    - Utilisez ce notebook pour exécuter le script insert_data.py, qui se trouve dans le même répertoire : lancer la cellule avec %run insert_data.py
+
+6. **Accéder à Streamlit**
+    dans le navigateur : http://localhost:8501
+
+7. **Arrêt des services :**
+    dans le terminal : docker-compose down
