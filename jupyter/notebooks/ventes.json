@@ -1,0 +1,22 @@
+[
+  {"product_id": 1, "product_name": "Laptop", "region": "North America", "sales": 150, "date": "2024-01-15"},
+  {"product_id": 2, "product_name": "Smartphone", "region": "Europe", "sales": 200, "date": "2024-01-16"},
+  {"product_id": 1, "product_name": "Laptop", "region": "Asia", "sales": 300, "date": "2024-01-17"},
+  {"product_id": 3, "product_name": "Tablet", "region": "South America", "sales": 100, "date": "2024-01-18"},
+  {"product_id": 2, "product_name": "Smartphone", "region": "North America", "sales": 250, "date": "2024-01-19"},
+  {"product_id": 4, "product_name": "Smartwatch", "region": "Europe", "sales": 175, "date": "2024-01-20"},
+  {"product_id": 5, "product_name": "Headphones", "region": "Asia", "sales": 225, "date": "2024-01-21"},
+  {"product_id": 3, "product_name": "Tablet", "region": "North America", "sales": 275, "date": "2024-01-22"},
+  {"product_id": 1, "product_name": "Laptop", "region": "Europe", "sales": 180, "date": "2024-01-23"},
+  {"product_id": 2, "product_name": "Smartphone", "region": "Asia", "sales": 240, "date": "2024-01-24"},
+  {"product_id": 4, "product_name": "Smartwatch", "region": "North America", "sales": 200, "date": "2024-01-25"},
+  {"product_id": 5, "product_name": "Headphones", "region": "Europe", "sales": 220, "date": "2024-01-26"},
+  {"product_id": 3, "product_name": "Tablet", "region": "Asia", "sales": 210, "date": "2024-01-27"},
+  {"product_id": 1, "product_name": "Laptop", "region": "South America", "sales": 190, "date": "2024-01-28"},
+  {"product_id": 2, "product_name": "Smartphone", "region": "South America", "sales": 260, "date": "2024-01-29"},
+  {"product_id": 4, "product_name": "Smartwatch", "region": "Asia", "sales": 195, "date": "2024-01-30"},
+  {"product_id": 5, "product_name": "Headphones", "region": "North America", "sales": 230, "date": "2024-01-31"},
+  {"product_id": 3, "product_name": "Tablet", "region": "Europe", "sales": 220, "date": "2024-02-01"},
+  {"product_id": 1, "product_name": "Laptop", "region": "Asia", "sales": 310, "date": "2024-02-02"},
+  {"product_id": 2, "product_name": "Smartphone", "region": "North America", "sales": 270, "date": "2024-02-03"}
+]
